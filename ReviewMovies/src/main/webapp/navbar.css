@@ -1,0 +1,119 @@
+.my-navbar {
+  	width: 100%;
+  	height: 50px;
+  	background-color: black;
+  	position: fixed;
+  	top: 0;
+  	z-index: 1;
+}
+
+.my-navbar-container {
+  	display: flex;
+  	align-items: center;
+  	padding: 0 20px;
+  	height: 100%;
+  	color: white;
+  	font-family: "Sen", sans-serif;
+  	min-width: 90%;
+}
+
+
+.my-logo-container {
+  	flex: 1;
+}
+
+.my-logo {
+	font-weight: bold;
+	font-size: 30px;
+  	color: red;
+}
+
+.my-menu-container {
+  	flex: 6;
+}
+
+.my-menu-list {
+  	display: flex;
+  	list-style: none;
+  	padding: 0;
+}
+
+.my-menu-list-item {
+  	margin-right: 30px;
+}
+
+.my-menu-link {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+
+.my-menu-link:hover {
+  	color: #ff0000; 
+}
+
+.my-select-container {
+}
+
+.my-search-bar {
+	flex: 2;
+    margin: -8px;
+    position: fixed;
+	right: 255px;
+}
+
+
+.my-search-bar input[type="text"] {
+    color: white;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-bottom: 1px solid red;
+    background: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.my-search-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 7px 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    position: absolute;
+	right: -32px;
+    top: 7px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.my-search-btn:hover {
+	background-color: red;
+}
+
+
+.my-profile-container {
+  	flex: 2;
+  	display: flex;
+  	align-items: center;
+  	justify-content: flex-end;
+}
+
+.my-profile-text-container {
+  	margin: 0 20px;
+}
+
+.my-profile-picture {
+  	width: 30px;
+  	height: 30px;
+  	border-radius: 50%;
+  	object-fit: cover;
+}
+
+.my-logout-icon{
+	position: relative;
+    right: 10px;
+}
